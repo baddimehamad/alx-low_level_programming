@@ -1,14 +1,5 @@
 #include<stdio.h>
 
-/**
- * _sqrt - finds the square root
- *
- * @x: input number
- *
- * Return: square root of x
- *
-*/
-
 double _sqrt(double x)
 {
 	float sqrt, tmp;
@@ -23,14 +14,6 @@ double _sqrt(double x)
 	}
 	return (sqrt);
 }
-
-/**
- * largest_prime_factor - finds and prints the largest
- *			prime factor of number (num)
- *
- * @num: number to find
-*/
-
 void largest_prime_factor(long int num)
 {
 	int prmNu, largest;
@@ -54,12 +37,6 @@ void largest_prime_factor(long int num)
 		largest = num;
 	printf("%d\n", largest);
 }
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
-*/
 int main(void)
 {
 
