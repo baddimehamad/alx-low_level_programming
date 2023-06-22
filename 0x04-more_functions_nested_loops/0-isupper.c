@@ -1,7 +1,7 @@
 /**
  * _isupper - check if c is upper
  *
- * @c: input for alphabet
+ * @c: input ASCII
  *
  * Return: 1 if its uppercase, 0 if not
 */
