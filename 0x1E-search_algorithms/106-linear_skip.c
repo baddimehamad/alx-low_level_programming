@@ -7,6 +7,7 @@
  *
  * Return: value
  */
+
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
 	skiplist_t *node, *jump;
@@ -21,7 +22,7 @@ skiplist_t *linear_skip(skiplist_t *list, int value)
 		{
 			jump = jump->express;
 			printf("Value checked at index [%ld] = [%d]\n",
-				jump->index, jump->n);
+					jump->index, jump->n);
 		}
 		else
 		{
